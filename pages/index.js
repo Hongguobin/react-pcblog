@@ -27,6 +27,7 @@ const Home = (list) => {
     smartLists: true,
     smartypants: false,
     highlight: function (code) {
+      console.log(code)
       return hljs.highlightAuto(code).value
     }
   })
